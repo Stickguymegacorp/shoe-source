@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Register</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Register below</h1>
+      <nav>
+        <ul>
+          <a href="site.html" class="nav button"
+            ><button class="btn"><span>home</span></button></a
+          >
+          <a href="about.html" class="nav button"
+            ><button class="btn"><span>about</span></button></a
+          >
+          <a href="contact.html" class="nav button"
+            ><button class="btn"><span>contact</span></button></a
+          >
+        </ul>
+      </nav>
+    </header>
+
+    <div>
+      <form>
+        First name:<input type="text" name="fname" required /><br />
+        Last name:<input type="text" name="lname" required /><br />
+        Email:<input type="email" name="email" required /><br />
+        Password:<input type="password" name="pword" required min="5" /><br />
+        Do you have shoes?<br />
+        <input type="radio" id="html" name="shoes" value="yes" />
+        <label for="html">yes</label><br />
+        <input type="radio" id="css" name="shoes" value="no" />
+        <label for="css">no</label><br />
+        birthday:<input type="date" name="bday" id="birthDate" /><br />
+        how many shoes? <input type="range" name="how many shoes" /><br />
+        what kind?<select name="jordans">
+          <option value="J1">Jordan 1</option>
+          <option value="J2">Jordan 2</option>
+        </select>
+        <br /><br />
+        <input type="submit" name="Register" />
+        <input type="reset" name="reset" />
+      </form>
+    </div>
+
+    <div>
+      <p><a href="site.html">Go back</a></p>
+    </div>
+  </body>
+</html>

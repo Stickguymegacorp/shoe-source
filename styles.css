@@ -1,0 +1,114 @@
+html {
+  background: url(https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/3fe04579-ea86-427c-b7bd-c5913c299bc1/gt-jump-2-basketball-shoes-wHTBR2.png)
+    no-repeat center center fixed;
+  background-size: cover;
+}
+
+h1,
+h2 {
+  color: red;
+  text-align: center;
+}
+
+*,
+.btn,
+footer,
+h1,
+h2 {
+  text-align: center;
+}
+
+footer,
+p span {
+  font-weight: 500;
+}
+
+* {
+  font-family: Maven Pro;
+}
+
+.nav-link {
+  color: red !important;
+}
+
+p span {
+  font-size: 1.5em;
+}
+
+h1 {
+  font-size: xxx-large;
+  background-color: #000;
+  border: 10px solid #000;
+  border-radius: 8px;
+}
+
+h2 {
+  font-size: xx-large;
+  border: 10px solid #000;
+  border-radius: 8px;
+}
+
+li {
+  list-style: none;
+  cursor: progress;
+  text-transform: uppercase;
+}
+
+nav {
+  display: inline-block;
+  justify-content: center;
+}
+
+#Shoes {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 10px solid rgba(0, 0, 0, 0.01);
+  border-radius: 8px;
+}
+
+#FLP {
+  float: left;
+}
+
+.btn {
+  border-radius: 8px;
+  background-color: red;
+  border: none;
+  color: #000;
+  font-size: 28px;
+  font-weight: 750;
+  padding: 20px;
+  width: 250px;
+  transition: 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+@font-face {
+  font-family: Maven pro;
+  src: url(fonts/MP.ttf);
+  font-family: PCF;
+  src: url(fonts/PCF.ttf);
+  font-family: mpb;
+  src: url(fonts/static/MavenPro-Black.ttf);
+}
+
+footer {
+  clear: both;
+}
+
+#navbarSupportedContent {
+  background-color: #000;
+  border: 10px solid #000;
+  border-radius: 8px;
+}
+
+.col {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 10px solid rgba(0, 0, 0, 0.01);
+  border-radius: 8px;
+}
+
+.col col-sm-3 {
+  display: flex;
+  flex-wrap: wrap;
+}
